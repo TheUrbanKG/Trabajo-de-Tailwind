@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Base de datos en programación</title>
+  </head>
+  <body class="font-Poppins">
+    <header>
+      <nav class="container flex items-center py-4 mt-4 sm:mt-12" >
+        <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
+          <li class="cursor-pointer">Inicio</li>
+          <li class="cursor-pointer">Tipo</li>
+          <li class="cursor-pointer">Gestores</li>
+          <li class="cursor-pointer">Tablas y Registros</li>
+          <li class="cursor-pointer">Tabla-Modelo</li>
+        </ul>
+        <div class="flex sm:hidden flex-1 justify-end">
+          <i class="text-2xl fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section class="relative">
+      <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h2 class="text-bookmark-blue text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
+            Base de Datos en Programación
+          </h2>
+          <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
+            ¿A qué nos referimos cuando hablamos de base de datos? </p>
+
+            <p class="text-bookmark-blue text-lg text-center lg:text-left mb-6">
+              Una base de datos es una recopilación de datos sistemática y almacenada electrónicamente. Puede contener cualquier tipo de datos, incluidos palabras, números, imágenes, vídeos y archivos. Puede usar un software denominado sistema de administración de bases de datos (DBMS) para almacenar, recuperar y editar datos. </p>
+          <div class="flex justify-center flex-wrap gap-6">
+            </button>
+          </div>
+        </div>
+        <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full border-8" src="./imgs/Base de datos 2.png" alt="" />
+        </div>
+      </div>
+      <div
+        class="
+          hidden
+          md:block
+          overflow-hidden
+          bg-bookmark-purple
+          rounded-l-full
+          absolute
+          h-80
+          w-2/4
+          top-32
+          right-0
+          lg:
+          -bottom-28
+          lg:-right-36
+        "
+      ></div>
+    </section>
+
+    <section class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center text-bookmark-blue">Tipos de Base de datos</h1>
+        <p class="text-center text-bookmark-black mt-4 ">
+          Las bases de datos son una parte esencial de cualquier sistema de información moderno ahora que todo gira entorno a la transformación digital y el Big Data. Desde aplicaciones de escritorio hasta aplicaciones web y móviles, todas ellas dependen de la capacidad de almacenar, acceder y manipular grandes cantidades de datos.
+        </p>
+      </div>
+      <div class="relative mt-20 lg:mt-24">
+        <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full border-8"
+              src="./imgs/illustration-features-tab-1.png"
+              alt=""
+            />
+          </div>
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <p class="text-bookmark-black my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+              <b>• Relacional:</b> Utiliza tablas para organizar los datos en filas y columnas. Es ideal para datos estructurados y utiliza SQL para consultas.
+            </p>
+            <p class="text-bookmark-grey text-center lg:text-left sm:w-3/4 lg:w-full"></p>
+              <b>• NoSQL:</b> No sigue el esquema tabular tradicional. Es útil para grandes volúmenes de datos no estructurados y distribuidos.
+            </p>
+            <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full"></p>
+              <b>• Centralizada:</b> Todos los datos se almacenan en un solo lugar, lo que facilita la gestión pero puede ser un punto único de fallo1.
+            </p>
+            <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full"></p>
+              <b>•  Distribuida:</b> Los datos se reparten en múltiples ubicaciones, mejorando la disponibilidad y redundancia1.
+            </p>
+            <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full"></p>
+              <b>•  Orientada a objetos:</b> Los datos se representan como objetos, similar a la programación orientada a objetos
+            </p>
+            <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full"></p>
+              <b>•  Gráfica:</b> Utiliza nodos y aristas para representar y almacenar datos, ideal para redes sociales y análisis de relaciones
+            </p>
+          </div>
+        </div>
+        <div
+          class="
+            hidden
+            lg:block
+            overflow-hidden
+            bg-bookmark-purple
+            rounded-r-full
+            absolute
+            h-80
+            w-2/4
+            -bottom-24
+            -left-36
+          "
+        ></div>
+      </div>
+      <div class="relative mt-20 lg:mt-52">
+        <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full border-8"
+              src="./imgs/Base de datos 3.png"
+              alt=""
+            />
+          </div>
+          <div class="flex flex-1 flex-col items-center lg:items-start bg-bookmark-white">
+            <h1 class="text-3xl text-bookmark-blue">Tipo de Gestores</h1>
+            <p class="text-bookmark-black my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+              <b>• MySQL:</b> Un SGBD de código abierto muy popular, especialmente en aplicaciones web.
+            </p>
+            <p class="text-bookmark-blue text-center lg:text-left sm:w-3/4 lg:w-full"></p>
+              <b>• PostgreSQL:</b> Un SGBD relacional y orientado a objetos conocido por su robustez y extensibilidad.
+            </p>
+            <p class="text-bookmark-blue my-4 text-center lg:text-left sm:w-3/4 lg:w-full"></p>
+              <b>• Microsoft SQL Server:</b> Un SGBD desarrollado por Microsoft, utilizado en aplicaciones empresariales.
+            </p>
+            <p class="text-bookmark-blue my-4 text-center lg:text-left sm:w-3/4 lg:w-full"></p>
+              <b>• Oracle Database:</b> Un SGBD muy potente y ampliamente utilizado en grandes corporaciones.
+            </p>
+            <p class="text-bookmark-blue my-4 text-center lg:text-left sm:w-3/4 lg:w-full"></p>
+              <b>• MongoDB:</b> Un SGBD NoSQL orientado a documentos, ideal para manejar grandes volúmenes de datos no estructurados.
+            </p>
+          </div>
+        </div>
+        <div
+          class="
+            hidden
+            lg:block
+            overflow-hidden
+            bg-bookmark-purple
+            rounded-l-full
+            absolute
+            h-80
+            w-2/4
+            -bottom-24
+            -right-36
+          "
+        ></div>
+      </div>
+      <div class="relative mt-20 lg:mt-52">
+        <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full border-8"
+              src="./imgs/Base de datos.png"
+              alt=""
+            />
+          </div>
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-blue">Tabla, Registro y Campo</h1>
+            <p class="text-bookmark-black my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+              <b>• Tabla:</b> Es una colección de datos organizados en filas y columnas dentro de una base de datos. Cada tabla se enfoca en un tema específico, como “Clientes” o "Productos".
+            </p>
+            <p class="text-bookmark-grey text-center lg:text-left sm:w-3/4 lg:w-full"></p>
+             <b>• Registro:</b> Es una fila dentro de una tabla. Cada registro contiene datos relacionados entre sí. 
+            </p>
+            <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full"></p>
+              <b>• Campo:</b> Es una columna dentro de una tabla. Cada campo contiene un tipo específico de información. 
+            </p>
+          </div>
+        </div>
+        <div
+          class="
+            hidden
+            lg:block
+            overflow-hidden
+            bg-bookmark-purple
+            rounded-r-full
+            absolute
+            h-80
+            w-2/4
+            -bottom-24
+            -left-36
+          "
+        ></div>
+      </div>
+    </section>
+
+    <section class="py-20 mt-20">
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center text-bookmark-blue">Modelo-Tablas y sus relaciones</h1>
+        <p class="text-left text-bookmark-black mt-4">
+          <b>Modelo de Base de Datos Relacional:</b> Este modelo organiza los datos en tablas, que son colecciones de filas y columnas. Cada tabla representa una entidad, como “Clientes” o "Productos".
+        </p>
+        <p class="text-center text-bookmark-grey mt-4"></p>
+          <b>Tabla:</b> Es una estructura que contiene datos organizados en filas y columnas. Cada fila (o registro) representa una instancia única de la entidad, y cada columna (o campo) representa un atributo de la entidad.
+        </p>
+        <p class="text-center text-bookmark-grey mt-4"></p>
+          <b>Relaciones entre Tablas:</b> En un modelo relacional, las tablas pueden estar relacionadas entre sí mediante claves primarias y foráneas. Estas relaciones pueden ser de varios tipos:
+        </p>
+        <p class="text-center text-bookmark-grey mt-4"></p>
+          <b> ○ Uno a Uno (1:1):</b> Un registro en una tabla está relacionado con un solo registro en otra tabla3.
+        </p>
+        <p class="text-center text-bookmark-grey mt-4"></p>
+          <b> ○ Uno a Muchos (1:N):</b> Un registro en una tabla puede estar relacionado con múltiples registros en otra tabla3.
+        </p>
+        <p class="text-center text-bookmark-grey mt-4"></p>
+          <b> ○ Muchos a Muchos (N:N):</b> Múltiples registros en una tabla pueden estar relacionados con múltiples registros en otra tabla. Esto generalmente se maneja mediante una tabla intermedia3.
+        </p>
+      </div>
+    </section>
+
+    <footer class="bg-bookmark-blue py-8">
+      <div class="container flex flex-col md:flex-row items-center">
+        <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
+          <p class="text-bookmark-white mt-4">© Kevon Copirait | Nena Ya tu Sabe |</p>
+        </div>
+        <div class="flex gap-10 mt-12 md:mt-0">
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
